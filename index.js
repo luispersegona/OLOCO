@@ -36,7 +36,7 @@ client.on('ready', () => {
     console.log("Bot Online");
     console.log("Bot Default Prefix is:", config.default_prefix)
     console.log("Logged in as:", client.user.tag)
-   client.user.setActivity(".help | keyauth.com");  
+   client.user.setActivity("Keys @.@");  
 });
 
 client.on("message", async message => {
